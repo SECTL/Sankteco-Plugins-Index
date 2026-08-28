@@ -1,24 +1,18 @@
 {
-    "version": 1,
     "plugins": [
         {
-            "id": "com.sankteco.music",
-            "name": "音乐点名插件",
-            "description": "点名时播放背景音乐",
+            "id": "com.sankteco.music_plugin",
+            "name": "点名音乐插件",
+            "description": "点名时自动播放背景音乐，支持MP3/WAV/FLAC格式",
             "author": "Sankteco",
             "icon": "MUSIC",
-            "version": "1.2.0",
-            "generation": 3,
+            "version": "1.0.0",
+            "generation": 1,
             "min_app_version": "1.0.0",
-            "max_app_version": "2.0.0",
-            "download_url": "https://github.com/Sankteco/Plugins/releases/download/v1.2.0/music-plugin.zip",
-            "mirror_urls": [
-                "https://ghproxy.net/https://github.com/Sankteco/Plugins/releases/download/v1.2.0/music-plugin.zip"
+            "requirements": [
+                "pygame>=2.0.0"
             ],
-            "file_size": 245760,
-            "sha256": "abc123...",
-            "requirements": ["requests>=2.28.0", "pygame>=2.0.0"],
-            "release_notes": "新增音量调节功能"
+            "download_url": "https://github.com/SECTL/Sankteco-Plugins/releases/download/music_plugin-1.0.0/music_plugin.zip"
         }
     ]
 }
