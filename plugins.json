@@ -12,7 +12,8 @@
             "requirements": [
                 "pygame>=2.0.0"
             ],
-            "download_url": "https://github.com/SECTL/Sankteco-Plugins/releases/download/music_plugin-1.0.0/music_plugin-v1.0.0.zip"
+            "download_url": "https://github.com/SECTL/Sankteco-Plugins/releases/download/music_plugin-1.0.0/music_plugin-v1.0.0.zip",
+            "sha256": "833681620fb191313d307dfa1929ddfc2f562ec8f18a172338e3fa1342f0f7a5"
         }
     ]
 }
